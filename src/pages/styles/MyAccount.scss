@@ -1,0 +1,148 @@
+.myaccount-con {
+  max-width: 991px;
+  margin: 0 auto;
+
+  .headStyle {
+    margin-bottom: 20px;
+    h2 {
+      margin-bottom: 0px;
+    }
+    p {
+      margin-top: 0px;
+    }
+  }
+}
+
+.details-box {
+  display: flex;
+  padding: 7px 0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 10px;
+
+  .detail-head {
+    width: 15%;
+    font-weight: 600;
+  }
+  .detail-action {
+    margin-left: auto;
+  }
+  .detail-action a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.ant-tabs-tab {
+  font-weight: 600;
+
+  &:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+input.ant-input,
+.ant-input-affix-wrapper {
+  height: 50px;
+  border-radius: 50px !important;
+}
+
+.ant-btn-primary {
+  height: 50px;
+  border-radius: 50px;
+  background-color: #0575e6;
+}
+
+:where(.css-dev-only-do-not-override-cdzvx5).ant-tabs
+  .ant-tabs-tab-btn
+  .ant-tabs-tab-icon:not(:last-child) {
+  margin-inline-end: 5px;
+}
+
+.tabsExtra-sec {
+  display: flex;
+  gap: 15px;
+  input.ant-input,
+  .ant-btn-primary {
+    height: 30px;
+  }
+}
+
+.modalTitle {
+  h3,
+  p {
+    margin: 0px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #ccc !important;
+  padding-bottom: 12px !important;
+}
+
+.modalBody {
+  label.input-pabel {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+.footerBTN {
+  text-align: end;
+  .ant-btn-primary {
+    height: auto;
+    padding: 8px 30px 12px 30px;
+  }
+}
+
+.ant-btn-info {
+  background-color: #ccc;
+  border-radius: 50px;
+  padding: 8px 30px 12px 30px;
+  height: auto;
+}
+
+.tabsExtra-sec {
+  .ant-input-affix-wrapper {
+    height: 30px;
+    border-radius: 50px !important;
+    input.ant-input {
+      height: 20px;
+    }
+  }
+}
+
+.ant-btn-danger {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+.ant-btn-primary-txt {
+  font-size: 20px;
+  color: #3078ff;
+}
+
+.ant-table-cell {
+  .ant-btn {
+    padding: 0px 0px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .details-box {
+    display: block;
+    position: relative;
+  }
+  .details-box .detail-action {
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+}

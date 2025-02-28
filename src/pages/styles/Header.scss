@@ -1,0 +1,26 @@
+.top-header header {
+    display: flex;
+    padding: 10px 0;
+
+    .profile-manu {
+        margin-left: auto;
+    }
+}
+
+.userprofile {
+    width: 30px;
+    height: 30px;
+    background: #0575e6;
+    border-radius: 50%;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+    .top-header header {
+        padding: 10px 0 10px 27px;
+    }
+}

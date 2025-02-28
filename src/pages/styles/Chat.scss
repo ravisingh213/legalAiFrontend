@@ -1,0 +1,136 @@
+.chat-container {
+  display: flex;
+  .right-section {
+    flex: 1;
+    padding: 0 20px 10px 20px;
+    background-color: white;
+
+    .chatbox-front {
+      display: flex;
+      height: 81vh;
+      align-items: center;
+      justify-content: center;
+      overflow: auto;
+      padding: 15px 0;
+    }
+  }
+}
+
+.chatbox-front.messages-txt {
+  align-items: inherit !important;
+}
+
+:where(.css-dev-only-do-not-override-cdzvx5).ant-menu-inline {
+  width: 200px;
+}
+
+.chatInput-box {
+  position: relative;
+  .attchedment {
+    position: absolute;
+    left: 10px;
+    z-index: 9;
+    color: #000;
+    font-size: 21px;
+    top: 5px;
+  }
+  .ant-input {
+    background-color: #eee;
+    border: 0px;
+    border-radius: 50px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .btn-send {
+    position: absolute;
+    right: 6px;
+    z-index: 9;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 5px;
+  }
+}
+
+.chat-dashboard {
+  max-width: 800px;
+  width: 100%;
+  .card-box {
+    margin: 10px;
+    border-radius: 20px;
+    .ant-card-body {
+      padding: 20px 10px;
+    }
+    span {
+      color: #000;
+    }
+    p {
+      margin: 10px 0 0 0;
+      line-height: 1.2;
+      color: #000;
+    }
+  }
+}
+
+.logoli {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chatting-text {
+  width: 100%;
+  padding: 20px 0;
+  /* overflow: auto; */
+}
+
+.user-message {
+  text-align: right;
+}
+
+.messages-txt {
+  font-size: 14px;
+}
+
+.site-message {
+  display: flex;
+  margin-top: 15px;
+  p {
+    margin-top: 0px;
+  }
+  .sitelogo {
+    margin-right: 15px;
+    img {
+      width: 30px;
+    }
+  }
+}
+
+ul.ant-menu.ant-menu-root {
+  background: transparent;
+}
+
+.pinkColor {
+  color: #cb68d2 !important;
+}
+
+.orangeColor {
+  color: #e0c02f !important;
+}
+
+.redColor {
+  color: #f64545 !important;
+}
+
+.blueColor {
+  color: #43c5eb !important;
+}
+.right-section {
+  position: relative;
+}
+.navhmse {
+  position: absolute;
+  left: 20px;
+  top: 1px;
+}
